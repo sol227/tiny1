@@ -1,0 +1,96 @@
+@charset "utf-8";
+@font-face {
+  font-family: "YClover-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+}
+.wrap {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  width: 490px;
+  height: 700px;
+  margin: 50px auto;
+  padding: 50px;
+  border: 15px double green;
+  border-radius: 20px;
+}
+h1 {
+  font-family: "YClover-Bold", "나눔고딕", "맑은 고딕", 돋움, sans-serif;
+  color: green;
+  font-size: 3rem;
+  padding: 100px 30px 70px;
+  margin: 0;
+}
+.inputBox {
+}
+
+.content {
+  font-family: "NanumSquareNeo-Variable";
+  /* font-weight: bold; */
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  outline: none;
+  width: 220px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px 15px;
+  font-family: "NanumSquareNeo-Variable";
+  /* font-weight: bold; */
+  font-size: 1.1rem;
+  border: 1px solid #ddd;
+}
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  margin: 80px 10px;
+  padding: 10px 30px;
+  font-family: "NanumSquareNeo-Variable";
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.3s;
+  box-sizing: border-box;
+  border: 2px solid green;
+}
+button:hover {
+  background-color: #fff;
+  color: green;
+  border: 2px solid green;
+}
+
+.result {
+  font-family: "YClover-Bold", "나눔고딕", "맑은 고딕", 돋움, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #fff;
+  color: rgb(214, 27, 27);
+  border: 6px double;
+  padding: 15px;
+  margin: 53px auto;
+  width: 450px;
+  height: 40px;
+  line-height: 40px;
+  transition: 0.3s;
+}
+.result span {
+  font-size: 2rem;
+}
