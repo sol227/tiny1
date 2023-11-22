@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tiny1/static/css/main.3dfb5efb.css",
+    "main.js": "/tiny1/static/js/main.9d309bf8.js",
+    "index.html": "/tiny1/index.html",
+    "main.3dfb5efb.css.map": "/tiny1/static/css/main.3dfb5efb.css.map",
+    "main.9d309bf8.js.map": "/tiny1/static/js/main.9d309bf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfb5efb.css",
+    "static/js/main.9d309bf8.js"
+  ]
+}
